@@ -2,10 +2,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .home {
-  background-color: #f9f7fe;
+  background-color: #f7dae3;
   text-align: center;
-  padding: 160px 20px;
-
+  padding: 80px 60px;
 }
 
 h5 {
@@ -14,23 +13,67 @@ h5 {
   font-weight: bold;
   line-height: 54px;
 }
+
+h3 {
+  color: #272142;
+  font-size: 24px;
+  line-height: 36px;
+}
+
 .home-heading {
   font-size: 96px;
   font-weight: bold;
   font-family: "Playfair Display", serif;
   line-height: 1.2;
 }
-.description {
-  color: #272142;
-  font-size: 24px;
-  line-height: 36px;
+
+.get-started-link {
+  border-radius: 50px;
+  background: #f65282;
+  color: white;
+  padding: 14px 40px;
+  font-size: 16px;
+  line-height: 27px;
+  text-decoration: none;
 }
 
-.btn-branding {
-  border-radius: 4px;
-  background: #6c63ff;
-  color: white;
-  padding: 16px 30px;
+.get-started-link:hover {
+  font-weight: 500;
+}
+
+.features {
   font-size: 18px;
-  line-height: 27px;
+  color: #272142;
+  text-align: center;
+  margin: 66px 0;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 48px;
+}
+
+img {
+  background-color: #f4c7d5;
+  padding: 92px 38px;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+  margin: 42px 0 58px 16px;
+}
+
+.see-more-link {
+  border-radius: 50px;
+  background-color: #f65282;
+  color: white;
+  padding: 14px 40px;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  margin-left: 18px;
 }

@@ -1,21 +1,30 @@
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Playfair Display", serif;
+  --background-colour: #f7dae3;
+  --button-colour: #f65282;
+  --tertiary-colour: #272142;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
 }
 .home {
-  background-color: #f7dae3;
+  background-color: var(--background-colour);
   text-align: center;
   padding: 80px 60px;
 }
 
 h5 {
-  color: #272142;
+  color: var(--tertiary-colour);
   font-size: 36px;
   font-weight: bold;
   line-height: 54px;
 }
 
 h3 {
-  color: #272142;
+  color: var(--tertiary-colour);
   font-size: 24px;
   line-height: 36px;
 }
@@ -23,13 +32,13 @@ h3 {
 .home-heading {
   font-size: 96px;
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: var(--secondary-font);
   line-height: 1.2;
 }
 
 .get-started-link {
   border-radius: 50px;
-  background: #f65282;
+  background: var(--button-colour);
   color: white;
   padding: 14px 40px;
   font-size: 16px;
@@ -43,25 +52,25 @@ h3 {
 
 .features {
   font-size: 18px;
-  color: #272142;
+  color: var(--tertiary-colour);
   text-align: center;
   margin: 66px 0;
 }
 
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 44px;
   margin-top: 48px;
 }
 
 img {
-  background-color: #f4c7d5;
+  background-color: var(--background-colour);
   padding: 92px 38px;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.6;
@@ -70,10 +79,28 @@ p {
 
 .see-more-link {
   border-radius: 50px;
-  background-color: #f65282;
+  background-color: var(--button-colour);
   color: white;
   padding: 14px 40px;
   text-decoration: none;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--box-shadow);
   margin-left: 18px;
+}
+
+@media (max-width: 768px) {
+  .home-heading {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  .cam-paragraph {
+    order: 2;
+  }
+  .cam-photo {
+    order: 1;
+  }
+  img {
+    padding: 68px 38px;
+  }
 }

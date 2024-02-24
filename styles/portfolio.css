@@ -69,7 +69,11 @@ img {
   padding: 92px 38px;
 }
 
-p {
+.img-row {
+  margin-bottom: 66px;
+}
+
+.home-paragraph {
   font-size: 18px;
   text-align: justify;
   text-justify: inter-word;
@@ -103,4 +107,21 @@ p {
   img {
     padding: 68px 38px;
   }
+}
+
+.image {
+  padding: 42px 32px;
+}
+.about-paragrapgh {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.view-projects-link {
+  border-radius: 50px;
+  background-color: var(--button-colour);
+  color: white;
+  padding: 14px 40px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
 }

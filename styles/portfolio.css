@@ -29,7 +29,7 @@ h3 {
   line-height: 36px;
 }
 
-.home-heading {
+.heading {
   font-size: 96px;
   font-weight: bold;
   font-family: var(--secondary-font);
@@ -92,7 +92,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  .home-heading {
+  .heading {
     font-size: 60px;
   }
   h2 {
@@ -112,11 +112,10 @@ img {
 .image {
   padding: 42px 32px;
 }
-.content-heading{
-  font-size: 56px;
+.content-heading {
+  font-size: 74px;
   font-weight: bold;
   font-family: var(--secondary-font);
-
 }
 .content-paragrapgh {
   text-align: justify;
@@ -132,5 +131,12 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.contact {
+  color: var(--tertiary-colour);
+  font-weight: bold;
+  font-size: 16px;
+}
 
-
+i {
+  color: var(--button-colour);
+}

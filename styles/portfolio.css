@@ -112,7 +112,13 @@ img {
 .image {
   padding: 42px 32px;
 }
-.about-paragrapgh {
+.content-heading{
+  font-size: 56px;
+  font-weight: bold;
+  font-family: var(--secondary-font);
+
+}
+.content-paragrapgh {
   text-align: justify;
   text-justify: inter-word;
 }
@@ -125,3 +131,6 @@ img {
   text-decoration: none;
   box-shadow: var(--box-shadow);
 }
+
+
+

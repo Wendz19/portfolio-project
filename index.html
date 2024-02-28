@@ -2,10 +2,7 @@
 <html lang="en">
 
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a2866cee64.js" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
@@ -18,6 +15,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a2866cee64.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wendy Mlotshwa|Front-end Developer</title>
@@ -26,27 +28,58 @@
 
 
 <body>
+
+    <nav class="navbar navbar-expand-md fixed-top p-0" style="background-color: #fff;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/" title="Homepage">
+                <img src="/images/wm.png" alt="logo" width="80" class="logo-img img-fluid ms-5">
+            </a>
+            <button class="navbar-toggler ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html" title="About Wendy">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/work.html" title="Contact Wendy">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html" title="Contact Wendy">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <br>
+
     <div class="home">
         <h5>Hello, I am </h5>
         <h1 class="heading">Wendy Mlotshwa</h1>
         <h3 class="description mb-5">Front-end Developer, based in Johannesburg</h3>
         <div>
-            <a href="#" class="get-started-link">Get Started</a>
+            <a href="/#get-started" class="get-started-link">Get Started</a>
         </div>
     </div>
 
     <div>
-        <p class="features">Featured projects which are my favourite projects to show</p>
+        <p class="features" id="get-started">Featured projects which are my favourite projects to show</p>
     </div>
 
     <div class="container">
         <div class="row img-row">
             <div class="col-md">
-                <img src="/images/city_of_joburg.png" alt="" class="img-fluid" width="580">
+                <img src="/images/city_of_joburg.png" alt="" class="img-fluid picture" width="580">
             </div>
             <div class="col-md">
                 <h2 class="ms-3">A Crowded City</h2>
-                <p class="home-paragraph">
+                <p class="home-paragraph me-3">
                     Johannesburg (colloquially known as Jozi, Joburg, or "The City of Gold") is the most populous city
                     in South
                     Africa with 4,803,262 people.
@@ -61,7 +94,7 @@
                     one of the continent's
                     most dynamic cities.
                 </p>
-                <a href="#" class="see-more-link">See More</a>
+                <a href="https://en.wikipedia.org/wiki/Johannesburg" target="_blank" class="see-more-link">See More</a>
 
             </div>
         </div>
@@ -69,7 +102,7 @@
         <div class="row img-row">
             <div class="col-md cam-paragraph order-md-1 order-2">
                 <h2 class="ms-3">Sony Alpha A7</h2>
-                <p class="home-paragraph">
+                <p class="home-paragraph me-4">
                     The Sony Alpha A7 IV is the perfect option for the individual looking for a Hybrid between
                     photography and videography.
                     An all-arounder that pushes beyond basic, the Sony a7 IV does double duty with strong stills and
@@ -82,20 +115,21 @@
                     All-Intra at up to 600
                     Mbps, compared to 4K30p, 8-bit/4:2:0 in its predecessor.
                 </p>
-                <a href="#" class="see-more-link">See More</a>
+                <a href="https://www.sony.com/za/electronics/interchangeable-lens-cameras/ilce-7m2-body-kit"
+                    target="_blank" class="see-more-link">See More</a>
             </div>
-            <div class="col-md ms-5 cam-photo order-md-2 order-1">
-                <img src="/images/sony_camera.jpg" alt="" class="img-fluid" width="580">
+            <div class="col-md ms- cam-photo order-md-2 order-1">
+                <img src="/images/sony_camera.jpg" alt="" class="img-fluid picture" width="580">
             </div>
         </div>
 
         <div class="row img-row">
             <div class="col-md">
-                <img src="/images/township_image.jpg" alt="" class="img-fluid" width="580">
+                <img src="/images/township_image.jpg" alt="" class="img-fluid picture" width="580">
             </div>
             <div class="col-md">
                 <h2 class="ms-3">A Township Tale</h2>
-                <p class="home-paragraph">
+                <p class="home-paragraph me-3">
                     In South Africa, the terms "township" and "lokshin" - derived from the word location, usually refer
                     to the often
                     underdeveloped racially segregated urban areas.
@@ -109,7 +143,9 @@
                     Living in a township can offer a unique opportunity to experience the diverse cultures and
                     traditions of South Africa.
                 </p>
-                <a href="#" class="see-more-link">See More</a>
+            
+                <a href="https://en.wikipedia.org/wiki/Township_(South_Africa)" target="_blank"
+                    class="see-more-link">See More</a>
             </div>
         </div>
 
